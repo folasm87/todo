@@ -1,0 +1,142 @@
+
+body{
+	font-family: sans-serif;
+	background-color: azure;
+	width:800px;
+   margin:0 auto;
+   text-align:center;
+   margin-top:40px;
+}
+
+#center{
+	background-color: white;
+	box-shadow: 4px 4px 5px #282b1f;
+	/*min-height: 600px;*/
+	height: auto;
+}
+
+#delete{
+	margin: 0px auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+	min-height: 80px;
+	min-width: 120px;
+	max-width: 300px;	
+	border: solid 2px black;
+	background-color: lightblue;
+	
+}
+
+
+#delete p{
+	text-decoration: none;
+	margin-top: 25px;
+	margin-left: 90px;
+	max-width: 120px;
+	color: black;
+}
+
+
+
+#delete.highlight{
+	background-color: #FF5757;
+}
+
+
+#list form{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	max-width: 440px;
+	
+}
+
+/*
+#delete:hover{
+	background-color: #FF5757;
+}
+*/
+
+
+.edit {
+	height: 15px;
+	width: 86%;
+	outline: none;
+	border: none;	
+	resize: none;
+	overflow: hidden;
+}
+
+#enter{
+	margin-top: 40px;
+}
+
+#enter p {
+	font-size: 18px;
+}
+h2{
+	font-size: 48px;
+	font-weight: 400;
+	padding-top: 20px;
+	
+}
+
+p{
+	font-size: 25px;
+	
+}
+
+#instructions{
+	text-align: left;	
+	
+	border: solid 1px black;
+	
+	background-color: lightcyan;
+	
+	padding-top: 10px;
+	
+	padding-bottom: 10px;
+	
+	padding-left: 10px;
+	
+}
+
+#instructions li{
+	/*margin-left: 10px;*/
+}
+
+#list{
+	width: 600px;
+	
+}
+
+#list li{
+
+	margin-left: 140px;
+	border: solid 1px black;
+	text-align: center;
+	background-color: cornflowerblue;
+}
+
+
+a{
+	text-decoration: none;
+	padding-left: 100px;
+	padding-right: 300px;
+}
+
+.listItem{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	border: solid 1px black;
+	border-radius: 5px;
+	
+	
+	
+}
+
+.strike{
+	text-decoration: line-through;
+}back

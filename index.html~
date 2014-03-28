@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		 <meta charset="utf-8"/>
+       <link rel="stylesheet" href="reset.css"/>
+       <link rel="stylesheet" href="style.css"/>
+       <script src="jquery-2.0.0.min.js"></script>
+		 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+		 <script src="app.js"></script>
+		 <title>TODO APP</title>
+	</head>
+	
+	<body>
+	
+		<div id="center">
+			<h2>Todo List App</h2>
+			<hr>
+			<p>This is an app where you can create a list for your TODO items.  Instructions are as follows:</p>
+			<br>
+			<ul id="instructions">
+				<li>Please enter items you want to add to the list in the textbox below and then press 'Enter'</li>
+				<br>
+				<li>To remove an item simply drag it from the left side before the checkbox to the deletion area above the textbox</li>
+				<br>
+				<li>Feel free to rearrange items by dragging them</li>	
+			</ul>		
+			<br>
+			<hr/>
+			<div id="delete" class="highlight">
+					<p>DELETE</p>
+			</div>
+			
+			<hr/>			
+			
+			<form id="enter">
+				
+                <label>Enter an item:</label>
+                <input type="text" id="item">
+            
+			</form>
+			<br/>
+			<div>
+				<ul id="list">
+					<!--<li class="listItem">
+						<form>
+							<input class="check" type="checkbox">
+							<span class="checkable">Hello World</span>	
+						</form>									
+					</li>-->
+				</ul>
+			</div>
+		</div>
+
+	</body>
+
+</html>
